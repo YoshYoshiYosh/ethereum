@@ -1,0 +1,6 @@
+<div class="container">
+  <h3>Ethereum.rb　テストページ</h3>
+  <p>アドレス: <%= @contract.call.get_address() %></p>
+  <p>残高: <%= @contract.call.get_balance() %></p>
+  <p>GreetMethod: <%= @contract.call.greeting() %></p>
+</div>
